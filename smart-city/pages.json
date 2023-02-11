@@ -1,0 +1,1036 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/guide/guide",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom", //可以去掉小程序端的顶部导航
+				"app-plus": {
+					"titleNView": false // 去掉APP、H5的顶部导航
+				}
+			}
+
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "智慧城市",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+		}, {
+			"path": "pages/allservice/allservice",
+			"style": {
+				"navigationBarTitleText": "全部服务",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "新闻资讯",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+		},
+		{
+			"path": "pages/news/detail",
+			"style": {
+				"navigationBarTitleText": "新闻详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent"
+				// 	}
+				// }
+			}
+		},
+		{
+			"path": "pages/news/newDetail/pingLun/pingLun",
+			"style": {
+				"navigationBarTitleText": "新闻评论",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+		},
+		{
+			"path": "pages/myself/myself",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		}
+
+
+		, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置IP端口",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		}, {
+			"path": "pages/myself/myOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		}, {
+			"path": "pages/myself/modifyPwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		}, {
+			"path": "pages/myself/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		}, {
+			"path": "pages/myself/myselfSetting",
+			"style": {
+				"navigationBarTitleText": "个人设置",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+			}
+
+		}
+	    ,{
+            "path" : "pages/park/index",
+            "style" :                                                                                    
+            {
+              "navigationBarTitleText": "停车场查询",
+              "enablePullDownRefresh": false,
+              "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/park/stopdetail/stopdetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/metro_query/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地铁查询",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/bus_query/custom_shuttle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧巴士",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/hospitalList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "门诊预约",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/traffic/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "违章首页",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/living_expenses/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "生活缴费",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/takeout/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "外卖订餐",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/house/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找房子",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/movie/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "看电影",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/job/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找工作",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity/index",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "活动管理",
+               "enablePullDownRefresh": false,
+               "navigationBarBackgroundColor": "#2578f4"
+            }
+        }
+        ,{
+            "path" : "pages/park/partRecord/partRecord",
+            "style" :                                                                                     	{
+               "navigationBarTitleText": "停车记录",
+               "enablePullDownRefresh": false,
+               "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/metro_query/metroDetail/metroDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "线路详情",
+               "enablePullDownRefresh": false,
+               "navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/living_expenses/phone/phone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "手机缴费查询",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        },{
+            "path" : "pages/living_expenses/phone/recharge/recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "立即充值",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        },
+		{
+		    "path" : "pages/living_expenses/phone/donePhone/donePhone",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "充值记录",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+		    }
+		    
+		},{
+            "path" : "pages/living_expenses/electricity/electricity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "生活水电费",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/living_expenses/electricity/electricity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "生活水电费",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/living_expenses/electricity/searchNum/searchNum",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编号查询",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/bus_query/customDetail/customDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巴士详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/hosptalDetail/hosptalDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医院简介",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/hosptalMake/hosptalMake",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "就诊人卡片",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/editing/editing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑就诊人信息",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/addHosptal/addHosptal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增就诊人",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/searchHosptal/searchHosptal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约挂号",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/booking/booking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约确定单",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outpatient/hostalDetaill/hostalDetaill",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约历史",
+                "navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bus_query/busData/busData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "乘车信息",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/takeout/shopIddetail/shopIddetail",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#2578f4",
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/takeout/shopIddetail/FoodsDetail/FoodsDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "店家详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/takeout/shopIddetail/FoodsDetail/foodsDetail/foodsDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "店铺详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/takeout/shopIddetail/setorder/setorder",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "创建订单",
+				"navigationBarBackgroundColor": "#2578f4",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/takeout/shopIddetail/setorder/appraise/appraise",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "顾客评价",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/takeout/shopIddetail/setorder/orderDetail/orderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2578f4"
+            }
+            
+        }
+        ,{
+            "path" : "pages/takeout/refund/refund",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "退款",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/movie/moiveDetail/moiveDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "影院厅",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/movie/buyMovice/buyMovice",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购票",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/job/jobDetail/jobDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "职位详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/job/JlSetting/JlSetting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人简历管理",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity/activityDetail/activityDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity/activityPL/activityPL",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "相关评论",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/house/houseDetail/houseDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房源详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/petHospital/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宠物医院",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/petHospital/petDetail/petDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宠物详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/petHospital/docterCheck/docterCheck",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问诊",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/medical/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医疗",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/library/library",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "数字图书馆",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/library/libraryDetail/libraryDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图书馆详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/library/PingLun/PingLun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图书馆评论",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/kitchen/kitchen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "厨房助手",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/kitchen/kcDetail/kcDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "厨房助手详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rubbish/rubbish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "垃圾分类",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rubbish/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rubbish/sarch/sarch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索页面",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rubbish/sarch/searchDetail/searchDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rubbish/pinglun/pinglun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Loving/Loving",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "爱心捐赠",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Loving/donate/donate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "捐助页面",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Loving/record/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "捐助记录",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/law/law",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "法律咨询",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/law/lawDetail/lawDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详细资料",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/law/pingLun/pingLun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/voluntary/voluntary",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自愿服务",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/voluntary/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/voluntary/activityDetail/activityDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hotline/hotline",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "政府热线",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hotline/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "热线详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hotline/setAppeal/setAppeal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建诉求",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/logistics/logistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流查询",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/logistics/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快递详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/logistics/logisticsDetail/logisticsDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "物流投诉",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/station/station",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "青年驿站",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/station/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人才区域详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/station/policy/policy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "政策",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/station/policyDetail/policyDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人才政策详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/station/details/details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "驿站详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/community",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧社区",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "养老院预约",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/mysetting/mysetting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "相关资料",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/room/room",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房间环境",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/community/lookAll/lookAll",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "健康情况",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/analysis/analysis",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "数据分析",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/building/building",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "智慧党建",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/building/contentDetail/contentDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "党员学习详情",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rubbish/sarch/searchRusult/searchRusult",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/manufacture/manufacture",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "中国制造",
+				"navigationBarBackgroundColor": "#2578f4",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"list": [{
+				"iconPath": "static/icon/主页.png",
+				"selectedIconPath": "static/icon/主页-1.png",
+				"pagePath": "pages/home/home",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/icon/全部服务.png",
+				"selectedIconPath": "static/icon/全部服务-1.png",
+				"pagePath": "pages/allservice/allservice",
+				"text": "全部服务"
+			},
+			// {
+			// 	"iconPath": "static/icon/活动.png",
+			// 	"selectedIconPath": "static/icon/活动-1.png",
+			// 	"pagePath": "pages/community/community",
+			// 	"text": "智慧社区"
+			// },
+			// {
+			// 	"iconPath": "static/pic/智慧活动@2x.png",
+			// 	"selectedIconPath": "static/pic/智慧活动@2x.png",
+			// 	"pagePath": "pages/building/building",
+			// 	"text": "智慧党建"
+			// },
+			// {
+			// 	"iconPath": "static/pic/智能制造@2x.png",
+			// 	"selectedIconPath": "static/pic/智能制造@2x.png",
+			// 	"pagePath": "pages/manufacture/manufacture",
+			// 	"text": "中国制造"
+			// },
+			{
+				"iconPath": "static/icon/新闻.png",
+				"selectedIconPath": "static/icon/新闻-1.png",
+				"pagePath": "pages/news/index",
+				"text": "新闻"
+			},
+			{
+				"iconPath": "static/icon/个人中心.png",
+				"selectedIconPath": "static/icon/个人中心-1.png",
+				"pagePath": "pages/myself/myself",
+				"text": "个人中心"
+			}
+		]
+	}
+}
